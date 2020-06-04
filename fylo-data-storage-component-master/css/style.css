@@ -7,6 +7,7 @@
   --darkBlue: #1d2c67;
   --veryDarkBlue: #0c122c;
   --white: #ffffff;
+  --black: #000000;
 }
 
 * {
@@ -41,8 +42,8 @@ body {
   border-radius: 8px;
   border-top-right-radius: 75px;
   margin-right: 1rem;
-  padding: 1.5rem;
-  width: 250px;
+  padding: 2rem;
+  width: 275px;
 }
 
 .fylo-info .fylo-logo img {
@@ -74,17 +75,98 @@ body {
   align-items: center;
 }
 
-/* #fylo-data-storage {
+.fylo-data-info {
+  margin-top: 19rem;
+}
+
+.fylo-data-info .quote-box {
+  background: var(--white);
+  border-radius: 8px;
+  width: 9rem;
+  color: var(--grayBlue);
+  padding: 1rem;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   position: absolute;
   z-index: 1;
-  top: 250px;
-  left: 500px;
-} */
-
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
+  margin-left: 15.68rem;
+  margin-top: -3.12rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+
+.fylo-data-info .quote-box .bold-text {
+  color: var(--black);
+  font-size: 2rem;
+  margin-right: 2px;
+  vertical-align: center;
+}
+
+.fylo-data-info .triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid var(--white);
+  margin-left: 23.75rem;
+  margin-top: 0.3rem;
+  z-index: 1;
+}
+
+.data-storage {
+  background: var(--darkBlue);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 425px;
+  position: relative;
+}
+
+.data-storage .data-info-used {
+  color: var(--grayBlue);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.data-storage .data-info-used .bold-text {
+  color: var(--paleBlue);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.data-storage .storage {
+  width: 100%;
+  height: 1rem;
+  background: #151e46;
+  border-radius: 50px;
+  margin-top: 0.5rem;
+}
+
+.gradient {
+  background: var(--gradient);
+  height: 1rem;
+  border-radius: 50px;
+  border: solid #151e46 2px;
+}
+
+.circle {
+  background: #fbfaf9;
+  border-radius: 50px;
+  height: 0.75rem;
+  width: 0.75rem;
+  margin-top: -0.885rem;
+  margin-left: 17.525rem;
+}
+
+.data-info-para {
+  display: flex;
+  color: var(--paleBlue);
+  font-size: 10px;
+  margin-top: 0.4rem;
+  font-weight: 700;
+}
+
+.data-info-para .full-storage {
+  margin-left: 18.5rem;
+}
