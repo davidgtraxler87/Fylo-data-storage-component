@@ -170,3 +170,21 @@ body {
 .data-info-para .full-storage {
   margin-left: 18.5rem;
 }
+
+.attribution {
+  margin-top: 400px;
+  font-size: 12px;
+  text-align: center;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+.attribution a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: var(--grayBlue);
+  font-size: 11.5px;
+  font-weight: 700;
+}
